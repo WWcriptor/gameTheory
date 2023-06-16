@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>죄수의 딜레마</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <script src="dilemma.js" defer></script>
+</head>
+<body>
+    <nav class="row row-margin">
+        <ul class="cal12 text-center">
+            <a href="index.html" target="_self"><li>홈</li></a>
+            <a href="dilemma.html" target="_self"><li id="now">죄수의 딜레마</li></a>
+            <a href="chiken.html" target="_self"><li>치킨게임</li></a>
+            <a href="deer.html" target="_self"><li>사슴사냥</li></a>
+            <a href="final.html" target="_self"><li>최후통첩</li></a>
+            <a href="doller.html" target="_self"><li>달러경매</li></a>
+        </ul>
+    </nav>
+    <section>
+        <div class="row row-margin">
+            <div class="cal1"></div>
+            <div class="cal10 h630 align-center bg-img2" id="box">
+                <div id="boxer">
+                    <p class="text-nomal text-big text-white box-margin">당신은 친구와 절도를 하다 현행범으로 붇잡혔다.
+                        <br>경찰은 절도죄는 징역 3년에 해당하지만, 친구의 죄를 고발한다면 석방 해주겠다고 한다.
+                        <br>단, 고발된 상대는 징역 10년을 살 것이며,
+                        <br>만약 서로가 서로를 고발한다면 양측 모두 징역 5년을 살게 될 것이라고 말했다.
+                        <br>그러고는 서로의 선택을 알 수 없도록 각자 다른 방에 가두었다.
+                    </p>
+                    <p class="text-exBold text-white text-center text-margin text-bigger">친구는 어떤 선택을 했을까?</p>
+                    <div class="align-spaceA">
+                        <button class="text-big text-nomal btn resert1" id="btnColor1">고발했을 것이다</button>
+                        <button class="text-big text-nomal btn resert2" id="btnColor2">침묵했을 것이다</button>
+                    </div>
+                    <div class="align-spaceA">
+                        <button class="text-bigger text-nomal btn2 bg-whiteA"><span class="text-exBold" id="text36">친구를 고발한다</span><br>
+                            <br>당신 : <span id="year1">징역 5년</span>
+                            <br>친구 : <span id="year2">징역 5년</span>
+                        </button>
+                        <button class="text-bigger text-nomal btn2 bg-whiteA"><span class="text-exBold" id="text36">침묵을 지킨다</span><br>
+                            <br>당신 : <span id="year3">징역 10년</span>
+                            <br>친구 : <span id="year4">석방</span>
+                        </button>
+                    </div>
+                    <div class="titleMargin"></div>
+                    <p class="text-big text-bold text-white text-center">친구를 고발하는 것이 당신에게는 항상 이득이다</p>
+                    <p class="text-small text-nomal text-center text-gray" id="return">설명 다시 읽기</p>
+                    <div class="titleMargin"></div>
+                </div>
+            </div>
+        <div class="cal1"></div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="cal12">
+                <p class="text-title">죄수의 딜레마</p>
+                <div class="textMargin2"></div>
+                <p class="text-small text-nomal">죄수의 딜레마는 2명이 참가하는 넌제로섬 게임 (non zero-sum game)의 일종이다. 용의자의 딜레마 또는 수인의 번민(囚人의 煩悶)이라고도 부른다. 
+                    <br>이 게임은 협력할 경우 서로에게 가장 이익이 되는 상황일 때, 개인적인 욕심으로 서로에게 불리한 상황을 선택하는 문제를 보여주고 있다. 
+                    <br>
+                    <br>애덤 스미스 등의 자유주의 시장 경제 이론에 따르면, 각 행위자들이 자신의 이익을 극대화하기 위해 행동하는 경우 비록 정부의 역할이 없더라도 시장이라는 보이지 않는 손에 의해 균형이 달성되어 사회적으로 가장 바람직한 결과가 나오게 된다. 하지만 죄수의 딜레마 게임에 따르면, 각 행위자들이 자신의 이익을 극대화하기 위해 행동하는 경우 모든 사람들에게 최악의 결과가 생긴다. 이러한 결과는 게임 참여자 중 어느 누구도 원하지 않았던 결과이며, 행위자들끼리 자발적인 의사소통과 약속 등의 방법을 통해서는 결코 해결할 수 없다. 결국 정부 또는 국가라는 외부의 행위자가 개입하여 법률, 제도, 세금 등의 방법으로 각 행위자의 행동을 강제해야만 사회적으로 바람직한 결과가 도출될 수 있다는 이론이다.
+                    <br>
+                    <br>'반복되는 죄수의 딜레마'로 게임이 계속될 경우, 긍정적인 협동이 가장 최선의 선택지가 된다는 사회행동의 전략적 진화를 보여준다.
+                </p>
+                <div class="photoMargin"></div>
+                <p class="text-title">전략 - 팃포탯</p>
+                <div class="textMargin2"></div>
+                <p class="text-small text-nomal">팃포탯(Tit for tat,TFT) 또는 팃포탯 전략은 반복 게임에서, 경기자가 이전 게임에서 상대가 한 행동을 이번 게임에서 그대로 따라 하는 전략으로 예를 들어 상대의 이전 행동이 협조적이었으면 협조하고, 비협조적이었으면 협조하지 않음으로써 보복하는 전략이다.
+                    <br>
+                    <br><span class="text-exBold text-big">팃포탯 전략은 반복되는 죄수의 딜레마의 강력한 전략이기도 하다.</span>
+                    <br>
+                    <br>이 전략은 1980년대에 로버트 엑슬로드(Robert Axelrod)가 고안한 게임에서 아나톨 라포포트(Anatol Rapoport)에 의해 최초로 제안되었고 컴퓨터 시뮬레이션의 수많은 반복 매치를 통해 최고의 전략으로 확인된 바 있다. 
+                    <br>이 전략을 사용하는 경기자는 처음에는 협력하고, 그 이후에는 상대의 바로 직전에 취한 전략에 똑같이 반응함으로써 진행된다.  또한 경기자는 자신의 전략이 어떤 것인지에 대해 널리 공표하여 다른 이들이 협력하도록 유도한다.
+                </p>
+                <div class="photoMargin"></div>
+                <p class="text-title">현실에 적용하기</p>
+                <div class="textMargin2"></div>
+            </div>
+        </div>
+        <div class="row row-margin">
+            <div class="cal3">
+                <img src="img/spc.jpg" alt="">
+            </div>
+            <div class="cal9">
+                <p class="text-small text-nomal">2022년 10월, SPC그룹의 계열사인 SPL 빵공장에서 끼임 사고가 발생해 젊은 직원이 사망했다. 안전관리에 소홀과 사후 수습에 있어 무정한 태도를 보여, 소비자들 사이에서 SPC삼립 제품 불매운동이 벌어졌다. 그러나 SPC삼립이 5월 9일 공시한 올 1분기 매출과 영업이익을 살펴보면, 연결 기준 매출 8,321억 원, 영업이익 166억 원으로, 전년 같은 기간 대비 매출은 14.8%, 영업이익은 22.4% 각각 증가했다. 당기순이익은 85억 원으로 9.1% 늘었다. 불매운동으로 가장 큰 타격을 받았다는 파리바게뜨도 평년 대비 매출이 최대 15%가량 감소했을 뿐, 전체 실적엔 영향을 미치지 못했다.
+                    <br>
+                    <br>우리는 SPC브랜드를 잘 소비하며 협력으로 시작했다. 그러나 SPC는 안전관리 소홀로 세상을 떠난 노동자에게 무정하게 대하며 비협조적으로 행동했다. 이에 우리는 똑같이 협조하지 않는, 즉 불매로 보복을 가했다. 여기까지는 전형적인 팃포탯 전략을 따른 것이다. 그러나 그 효과는 미미했다. 상대의 배신에 비해 우리의 보복이 너무 약했다는 의미다. 
+                    <br>
+                    <br>팃포탯 전략의 핵심은 상대가 우리의 보복이 두려워서 배신을 선택하지 않도록 하는 것에 있다. 노동자를 그저 일종의 자원 취급하는 SPC에게 ‘노동자를 함부로 대하면 우리는 소비하지 않는다’는 확실한 메시지를 전달했어야 한다. 그러나 우리는 불매를 잠깐 했다가 캐릭터 콜라보 빵을 사먹으며 ‘배신에 대한 보복은 가볍게 지나간다’는 메시지를 남겼다. 결과만 보면 우리는 보복이 아니라 협력을 택한 것이나 다름 없다.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>©2023 HKNU Digital Publishing1
+            <br>본 웹사이트는 한경국립대학교의 2023년 디지털퍼블리싱1 수업에서 과제의 일환으로 디자인된 것입니다.
+            <br>2023 한경국립대학교 시각영상전공 2021820008 김민아 mina021104@gmail.com</p>
+    </footer>
+</body>
